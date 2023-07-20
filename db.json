@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "name": "Футболка IF FOUND PLEASE RETURN TEE 2000S",
+      "price": "2800₽",
+      "photo": "https://i.ibb.co/ZWsnmdv/image-2.png" 
+    },
+    {
+      "name": "Футболка GET HOOKED UP TEE 1990S",
+      "price": "2500₽",
+      "photo": "https://i.ibb.co/f463LSN/image-4.png"
+    },
+    {
+      "name": "Футболка MEMPHIS TEE 1990S",
+      "price": "2600₽",
+      "photo": "https://i.ibb.co/64MzpBM/image-3.png"
+    },
+    {
+      "name": "Куртка CARHARTT HOODED JACKET 2000S",
+      "price": "15900₽",
+      "photo": "https://i.ibb.co/ZGQVpN2/image-5.png"
+    },
+    {
+      "name": "Куртка CARHARTT ACTIVE JACKET 1990S", 
+      "price": "14500₽",
+      "photo": "https://i.ibb.co/bmWtNrJ/image-7.png"
+    },
+    {
+      "name": "Свитшот EAT MORE PIZZA SWEATSHIRT 2000S", 
+      "price": "4200₽",
+      "photo": "https://i.ibb.co/KXsFhyj/image-8.png"
+    },
+    {
+      "name": "Свитшот CHAMPION BLANK SWEATSHIRT 1990S", 
+      "price": "3500₽",
+      "photo": "https://i.ibb.co/Hh3B0tD/image-6.png"
+    },
+    {
+      "name": "Штаны CARHARTT PAINTED PANTS 1990S", 
+      "price": "6900₽",
+      "photo": "https://i.ibb.co/Z2GVrhC/image-9.png"
+    },
+    {
+      "name": "Штаны CARHARTT PAINTED PANTS 1990S", 
+      "price": "6700₽",
+      "photo": "https://i.ibb.co/XJ4dLqD/image-10.png"
+    }
+  ]
+}

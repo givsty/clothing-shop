@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+:root {
+  --footer-text: white;
+}
+
+body {
+  width: 1440px;
+  height: 374px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 47px 0;
+}
+
+.menu__elements {
+  display: flex;
+  list-style: none;
+}
+
+.menu__elements li {
+  padding-left: 25px;
+  font-weight: 800;
+}
+
+.menu__elements li {
+  padding-left: 25px;
+  font-weight: 800;
+}
+
+.logo {
+  cursor: default;
+}
+
+.logo a {
+  text-decoration: none;
+  color:black;
+}
+.menu__elements li:hover {
+  color: purple;
+  cursor: pointer;
+}
+
+.menu-logo img:hover{
+  cursor: pointer;
+  color: purple;
+}
+
+.slider {
+  background: url(img/slider/slider-bcg.png); 
+  width: 1440px;
+  height: 650px; 
+}
+
+.collections__header {
+  text-align: center;
+  color: white;
+  font-size: 64px;
+  cursor: default;
+}
+
+.bacground-img__cards{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 200px;
+}
+
+.img__mens {
+  background: url('img/slider/cards/Screenshot_14 1.png');
+  width: 360px;
+  height: 428px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img__wms {
+  background: url('img/slider/cards/Screenshot_13 1.png');
+  width: 360px;
+  height: 428px;
+  text-align: center;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.boxes {
+  margin-top: 46px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mens__box {
+  background: url('img/boxes/box__mens.png');
+  width: 530px;
+  height: 920px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.wms__box {
+  background: url('img/boxes/box__wms.png');
+  width: 530px;
+  height: 920px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wms__box__txt {
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.mens__box__txt {
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.mens__box__txt a {
+  text-decoration: none;
+  color: white;
+}
+
+.mens__box__txt a:hover {
+  color: purple;
+}
+.wms__box__txt:hover {
+  color: purple;
+}
+
+.mens__box__txt:hover {
+  color: purple;
+}
+
+.footer {
+  padding-top: 40px;
+  width: 1400px;
+  height: 374px;
+  margin-top: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  line-height: 50px;
+}
+
+.cotacts {
+  color: var(--footer-text);
+  display: flex;
+  flex-direction: column;
+}
+.filials {
+  color: var(--footer-text);
+  display: flex;
+  flex-direction: column;
+}
+.news {
+  color: var(--footer-text);
+  display: flex;
+  flex-direction: column;
+}
+
+.line{
+  background-color: black;
+  display: flex;
+  height: 56px;
+  align-items: center;
+}
+
+.p__line {
+  color: white;
+  margin-left: 15px;
+}
+
+.category {
+  line-height: 50px;
+}
+
+.category__inner li {
+  list-style: none;
+}
+
+.line-category{
+  width: 180px;
+  height: 1px;
+  background-color: black;
+}
+
+.price__filter li {
+  list-style: none;
+}
+
+.product-page {
+  display: flex;
+  line-height: 40px;
+  justify-content: flex-start;
+}
+
+.product__page__cards {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 25px;
+  padding-top: 18px;
+  padding-left: 15px;
+}
+.product__page__cards__content__img {
+  width: 300px;
+  height: 600px;
+  border: 1px solid black;
+}
+
+/* Модальное окно */
+
+.modal-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.modal-bg {
+  background:rgba(0, 0, 0, .8);
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.modal-body {
+  border: 1px solid white;
+  border-radius: 16px;
+  padding: 24px;
+  margin: auto;
+  max-height: 90%;
+  background-color: white;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-close {
+  border: 1px solid red;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  background-color: red;
+}
+
+.modal-close:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.product__page__cards__content {
+  border: 1px solid black;
+  width: 400px;
+  height: 560px;
+}
+
+.product__page__cards__content__photo {
+  width: 400px;
+  height: 400px;
+}
+
+.product__page__cards__content__description {
+  padding: 18px;
+}
